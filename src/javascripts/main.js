@@ -1,7 +1,10 @@
 import '../styles/main.scss';
+import auth from './components/auth/auth';
+import birfday from './components/birfday/birfday';
 
 const init = () => {
-  console.error('working');
+  auth.authStringBuilder();
+  birfday.birfdayStringBuilder();
 };
 
 init();
