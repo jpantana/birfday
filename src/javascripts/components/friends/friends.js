@@ -46,7 +46,7 @@ const radioButtonEvent = (e) => {
     statusId: e.target.value,
   };
   if (rsvpId) {
-    // udpate
+    // update
     rsvpData.editRsvp(rsvpId, rsvp)
       .then(() => getFriends(firebase.auth().currentUser.uid)) // eslint-disable-line no-use-before-define
       .catch(err => console.error('no update', err));
@@ -56,7 +56,6 @@ const radioButtonEvent = (e) => {
       .then(() => getFriends(firebase.auth().currentUser.uid)) // eslint-disable-line no-use-before-define
       .catch(err => console.error('no add', err));
   }
-  console.error(rsvp);
 };
 
 const addEvents = () => {
