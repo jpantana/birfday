@@ -4,7 +4,7 @@
 A website to that allows me to use my list of friends to invite to a birfday party. Invitees can RSVP.
 
 ## Screenshots
-![Image of the birday website.]( "screenshot of birfday site.")
+![Image of the birday website.](https://raw.githubusercontent.com/jpantana/birfday/screenshots/screenshots/birfday.png "screenshot of birfday site.")
 
 ## Installation Instructions
 * Clone down this repo
